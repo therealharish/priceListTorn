@@ -30,7 +30,7 @@
 /* Laptop styles */
 @media (min-width: 1024px) {
     .category-container {
-        width: 30%; /* 3 columns on laptops */
+        width: 32%; /* 3 columns on laptops */
     }
 }
 
