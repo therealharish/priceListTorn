@@ -108,7 +108,7 @@ const Prices = ({loading, setLoading, prices, setPrices}) => {
                                             <TableCell sx = {{width: '35%', borderRight: "1px solid #ddd"}}>
                                                     <span style = {{width: '40%'}}>{price.Item}</span>
                                             </TableCell>
-                                            <TableCell style = {{borderRight: "1px solid #ddd", textAlign: "right"}}>{`$${formatNumberIntoPrice(price.Actual)}`}</TableCell>
+                                            <TableCell style = {{borderRight: "1px solid #ddd"  }}>{`$${formatNumberIntoPrice(price.Actual)}`}</TableCell>
                                             {price['BULK Number']? <TableCell style = {{borderRight: "1px solid #ddd"}}>{`$${formatNumberIntoPrice(price['Bulk Price'])} (${price['BULK Number']}+)`}</TableCell> : <TableCell style = {{borderRight: "1px solid #ddd"}}></TableCell>}
                                         </TableRow>
                                     ))}

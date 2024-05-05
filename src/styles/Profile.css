@@ -32,7 +32,19 @@
     margin-top: 2em;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .profile-ctn {
+        flex-direction: column;
+    }
+    .profile-button {
+        width: 30vw;
+    }
+    .profile-image {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 1024px) {
     .profile-ctn {
         flex-direction: column;
     }

@@ -23,14 +23,14 @@
 /* Tablet styles */
 @media (min-width: 768px) {
     .category-container {
-        width: 40%; /* 2 columns on tablets */
+        width: 39%; /* 2 columns on tablets */
     }
 }
 
 /* Laptop styles */
 @media (min-width: 1024px) {
     .category-container {
-        width: 32%; /* 3 columns on laptops */
+        width: 29%; /* 3 columns on laptops */
     }
 }
 

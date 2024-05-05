@@ -10,7 +10,7 @@ const Profile = () => {
                       <img src="https://www.torn.com/sigs/11_2097793.png" height="84" width="346" alt="Torn" />
               </a>
         </div>
-        <a className = "profile-button" href="https://www.torn.com/trade.php#step=start&userID=2097793" rel="nofollow">
+        <a style = {{textDecoration: "none"}}className = "profile-button" href="https://www.torn.com/trade.php#step=start&userID=2097793" rel="nofollow">
           <div>
               START TRADE
           </div>
