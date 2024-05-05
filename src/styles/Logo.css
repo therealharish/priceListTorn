@@ -1,0 +1,35 @@
+.logo-content {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.88235;
+    font-family: Josefix, Arial, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0;
+    color: #C59D5F !important;
+    -webkit-tap-highlight-color: transparent!important;
+    text-decoration: none;
+    overflow: hidden;
+    /* display: table; */
+    vertical-align: middle;
+    height: 3.75rem;
+    padding: 0 .625rem;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 3.75rem;
+  }
+
+.logo-text {
+    border-color: black;
+    color: #C59D5F
+}
+
+.logo-anchor {
+    text-decoration: none;
+}
+
+
+  
